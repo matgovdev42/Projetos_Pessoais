@@ -1,0 +1,321 @@
+body {
+    background: linear-gradient(to bottom, rgb(203, 203, 244), rgb(90, 90, 188));
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+div#a {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#b {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#c {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#d {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#e {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#f {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#g {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#h {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+div#i {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#j {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#k {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#l {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#m {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#n {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#o {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#p {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#q {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#r {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#s {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#t {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#u {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#v {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#w {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#x {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#y {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button#reiniciar {
+    width: 70px;
+    height: 40px;
+    background-color: brown;
+    display: flex;
+    margin: 10px;
+    color: antiquewhite;
+    box-shadow: inset;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+footer {
+    font: normal arial 12pt;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+/*Resposta do Desafio*/
+/* A - P -> Azul */
+/* B - G -> Aramelo */
+/* C - U -> Roxo */
+/* D - F -> Verde */
+/* E - T -> Marrom */
+/* H - Y -> Cinza */
+/* I - N -> Branco */
+/* J - R -> Laranja */
+/* L - S -> Dourado */
+/* M - O -> Aqua */
+/* Q - X -> Rosa */
+/* V - W -> Bege */ 
+/* K é a bomba -> Vermelho */
