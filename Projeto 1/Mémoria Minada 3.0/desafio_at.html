@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Simples</title>
+    <script src="desafio_at.js" defer></script>
+    <link rel="stylesheet"  href="desafio_at.css">
+</head>
+<body>
+    <h1>MÉMORIA MINADA! 💣</h1>
+    <h3>Bem-vindo ao Jogo da Memória com Campo Minado!<br>
+Seu objetivo é encontrar todos os pares de cartas 
+da mesma cor sem revelar a bomba escondida.</h3>
+    <div class="regra-jogo"><h3>
+    <button onclick="regraDeJogo('regra')"><h3>Regras do Jogo</h3></button></div>
+     <ul>
+        <li>O tabuleiro é composto por 25 cartas 
+            coloridas viradas para baixo.</li>
+        <li>Cada cor possui um par idêntico.</li>
+        <li>Apenas uma carta é a BOMBA, 
+            de cor vermelha. Ao revelá-la, 
+            o jogo termina imediatamente.</li>
+     </ul>
+   <div class="modo-jogo"><h3>
+    <button onclick="modoDeJogo('jogo')"><h3>Modo de Jogo</h3></button></div>
+   <button class="facil">Fácil</button>
+    <ul>
+        <li>Ao encontrar dois pares corretos, 
+            eles permanecem virados até o fim do jogo.</li>
+        <li>Mesmo que você erre, 
+            as cartas não são escondidas novamente.</li>
+        <li>Ideal para iniciantes!</li>
+    </ul>
+
+    <button class="medio">Médio</button>
+      <ul>
+          <li>Pares corretos permanecem virados.</li>  
+          <li>Se errar, todas as cartas voltam para baixo.</li>  
+          <li>Você tem 5 segundos para 
+            memorizar os pares certos antes que voltem.</li>    
+      </ul>  
+
+    <button class="dificil">Díficil</button>
+      <ul>
+          <li>Pares corretos permanecem virados, se errar,
+             todas as cartas são viradas imediatamente.</li>  
+          <li>Sem tempo extra para memorizar.</li>  
+          <li>Para quem gosta de desafio!</li>    
+      </ul>  
+
+   <div class="grade">
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+    <div id="e"></div>
+    <div id="f"></div>
+    <div id="g"></div>
+    <div id="h"></div>
+    <div id="i"></div>
+    <div id="j"></div>
+    <div id="k"></div>
+    <div id="l"></div>
+    <div id="m"></div>
+    <div id="n"></div>
+    <div id="o"></div>
+    <div id="p"></div>
+    <div id="q"></div>
+    <div id="r"></div>
+    <div id="s"></div>
+    <div id="t"></div>
+    <div id="u"></div>
+    <div id="v"></div>
+    <div id="w"></div>
+    <div id="x"></div>
+    <div id="y"></div>
+
+    </div>
+
+    <button id="reiniciar">Reiniciar Jogo</button>
+
+    <footer>
+        Projeto de HTML CSS e JavaScript
+        <br>
+        by Matheus Gouveia 2025 ©
+    </footer>
+</body>
+</html>
