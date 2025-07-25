@@ -1,0 +1,580 @@
+body {
+    background: linear-gradient(to bottom, rgb(203, 203, 244), rgb(90, 90, 188));
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.regra-jogo button {
+    width: 250px;
+    background-color: black;
+    color: #9d9d9d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid #6c6c6c;
+    border-radius: 10px;
+    padding: 5px 22px;
+    box-shadow: 2px 2px 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.regra-jogo button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.modo-jogo button  {
+    width: 250px;
+    background-color: black;
+    color: #9d9d9d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid #6c6c6c;
+    border-radius: 10px;
+    padding: 5px 22px;
+    box-shadow: 2px 2px 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.modo-jogo button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+}
+
+.facil {
+    width: 100px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5px 10px ;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.medio {
+    width: 100px;
+    background-color: rgb(128, 115, 0);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5px 10px ;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.dificil {
+    width: 100px;
+    background-color: rgb(128, 0, 0);
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 5px 10px ;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+div#a {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#a:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#b {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#b:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#c {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#c:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#d {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#d:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#e {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#e:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#f {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#f:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#g {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#g:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#h {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#h:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#i {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#i:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#j {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#j:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#k {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#k:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#l {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#l:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#m {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#m:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#n {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#n:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#o {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#o:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#p {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#p:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#q {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#q:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#r {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#r:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#s {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#s:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#t {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#t:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#u {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#u:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#v {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#v:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#w {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#w:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#x {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#x:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+div#y {
+    font: 40pt normal arial;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+div#y:hover {
+    background-color: #242424;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 5px;
+    padding: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button#reiniciar {
+    width: 70px;
+    height: 40px;
+    background-color: brown;
+    display: flex;
+    margin: 10px;
+    border-radius: 8px;
+    color: antiquewhite;
+    box-shadow: inset;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+footer {
+    font: normal arial 12pt;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+/*Resposta do Desafio*/
+/* A - P -> Azul */
+/* B - G -> Aramelo */
+/* C - U -> Roxo */
+/* D - F -> Verde */
+/* E - T -> Marrom */
+/* H - Y -> Cinza */
+/* I - N -> Branco */
+/* J - R -> Laranja */
+/* L - S -> Dourado */
+/* M - O -> Aqua */
+/* Q - X -> Rosa */
+/* V - W -> Bege */ 
+/* K é a bomba -> Vermelho */

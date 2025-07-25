@@ -1,0 +1,31 @@
+<div class="modo-jogo">
+  <h3>Escolha o modo de jogo:</h3>
+  <button onclick="iniciarJogo('facil')">Fácil</button>
+  <button onclick="iniciarJogo('normal')">Normal</button>
+  <button onclick="iniciarJogo('dificil')">Difícil</button>
+</div>
+
+
+.modo-jogo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.modo-jogo button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modo-jogo button:nth-child(2) { background-color: #4caf50; color: white; }
+.modo-jogo button:nth-child(3) { background-color: #ff9800; color: white; }
+.modo-jogo button:nth-child(4) { background-color: #f44336; color: white; }
+
+.modo-jogo button:hover {
+  opacity: 0.85;
+}
