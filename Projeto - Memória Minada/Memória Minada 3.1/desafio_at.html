@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memória Minada</title>
+    <script src="desafio_at.js" defer></script>
+    <link rel="stylesheet"  href="desafio_at.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>MEMÓRIA MINADA 💣</h1>
+    <h3>Bem-vindo ao Jogo da Memória com Campo Minado!<br>
+Seu objetivo é encontrar todos os pares de cartas 
+da mesma cor sem revelar a bomba escondida.</h3>
+    <div class="regra-jogo"><h3>
+    <button onclick="regraDeJogo('regra')"><h3>Regras do Jogo</h3></button></div>
+     <ul>
+        <li>O tabuleiro é composto por 25 cartas 
+            coloridas viradas para baixo.</li>
+        <li>Cada cor possui um par idêntico.</li>
+        <li>Apenas uma carta é a BOMBA, 
+            de cor vermelha. Ao revelá-la, 
+            o jogo termina imediatamente.</li>
+     </ul>
+   <div class="modo-jogo"><h3>
+    <button onclick="modoDeJogo('jogo')"><h3>Modo de Jogo</h3></button></div>
+   <button class="facil">Fácil</button>
+    <ul>
+        <li>Ao encontrar dois pares corretos, 
+            eles permanecem virados até o fim do jogo.</li>
+        <li>Mesmo que você erre, 
+            as cartas não são escondidas novamente.</li>
+        <li>Ideal para iniciantes!</li>
+    </ul>
+
+    <button class="medio">Médio</button>
+      <ul>
+          <li>Pares corretos permanecem virados.</li>  
+          <li>Se errar, todas as cartas voltam para baixo.</li>  
+          <li>Você tem 5 segundos para 
+            memorizar os pares certos antes que voltem.</li>    
+      </ul>  
+
+    <button class="dificil">Díficil</button>
+      <ul>
+          <li>Pares corretos permanecem virados, se errar,
+             todas as cartas são viradas imediatamente.</li>  
+          <li>Sem tempo extra para memorizar.</li>  
+          <li>Para quem gosta de desafio!</li>    
+      </ul>  
+
+   <div class="grade">
+    <div id="a">爆</div>
+    <div id="b">爆</div>
+    <div id="c">爆</div>
+    <div id="d">爆</div>
+    <div id="e">爆</div>
+    <div id="f">爆</div>
+    <div id="g">爆</div>
+    <div id="h">爆</div>
+    <div id="i">爆</div>
+    <div id="j">爆</div>
+    <div id="k">爆</div>
+    <div id="l">爆</div>
+    <div id="m">爆</div>
+    <div id="n">爆</div>
+    <div id="o">爆</div>
+    <div id="p">爆</div>
+    <div id="q">爆</div>
+    <div id="r">爆</div>
+    <div id="s">爆</div>
+    <div id="t">爆</div>
+    <div id="u">爆</div>
+    <div id="v">爆</div>
+    <div id="w">爆</div>
+    <div id="x">爆</div>
+    <div id="y">爆</div>
+
+    </div>
+
+    <button id="reiniciar">Reiniciar Jogo</button>
+
+    <footer>
+        Projeto de HTML CSS e JavaScript
+        <br>
+        by &copy; Matheus Gouveia 2025 
+    </footer>
+</body>
+</html>
