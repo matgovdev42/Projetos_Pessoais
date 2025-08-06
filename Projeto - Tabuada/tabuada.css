@@ -1,0 +1,61 @@
+body {
+    background: rgba(155, 196, 155, 0.8);
+    font: normal 15pt 'poppins';
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    color: rgba(82, 60, 60, 0.823);
+}
+
+section {
+    background-color: rgba(82, 60, 60, 0.699);
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.187);
+    margin: 15px;
+}
+
+#dado {
+    margin: 15px;
+}
+
+#res {
+    margin: 15px
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div {
+    flex: 1 1 45%;
+    max-width: 220px;
+    margin: 5px;
+}
+.container select {
+    width: 100%;
+}
+
+#seltab {
+    margin: 15px;
+    width: 200px;
+}
+#seltab2 {
+    margin: 15px;
+    width: 200px;
+}
+#seltab3 {
+    margin: 15px;
+    width: 200px;
+}
+#seltab4 {
+    margin: 15px;
+    width: 200px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
